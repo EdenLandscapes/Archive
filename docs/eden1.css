@@ -1,0 +1,25 @@
+body  { font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: #021833 }
+td  { font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+table.main { background-color: #204080 }
+h1.homeTitle  { color: #204080; font-size: 8px }
+td.nav   { color: #162e4e; background-color: #b2d4ff }
+td.photo { color: #162e4e; border: solid 2px #162e4e }
+td.blue { background-color: #162e4e }
+td.body    { color: #fff; font-size: 14px; text-align: justify; padding: 15px }
+td.pic  { padding: 6px }
+td.footer   { color: white; font-size: 12px; background-color: #263e5e; padding: 10px 20px }
+
+
+td.bRB  { border-right: 2px solid #162e4e; border-bottom: 2px solid #162e4e }
+td.bRTitle { color: #fff; font-size: 11px; padding-top: 2px; padding-right: 5px; padding-bottom: 2px; border-right: 2px solid #162e4e }
+td.bB  { border-bottom: 2px solid #162e4e }
+td.bLT  { border-top: 2px solid #162e4e; border-left: 2px solid #162e4e }
+td.bT   { border-top: 2px solid #162e4e }
+
+
+td.picTitle { color: #fff; font-size: 11px; padding-top: 2px; padding-right: 5px; padding-bottom: 2px}
+
+a:link {color: #fff; text-decoration: none}
+a:visited {color:#fff; text-decoration: none}
+a:hover {color: #fbb; text-decoration: none}
+a:active {color: #dfb; text-decoration: none}

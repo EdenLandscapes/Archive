@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<title>Eden Landscapes - Construction</title>
+		<link href="../eden.css" type="text/css" rel="stylesheet">
+		<script language="JavaScript" name="imageRollovers"> <!--
+var x
+var y
+
+
+var imageArray = new Array()
+
+imageArray[0] = new Image()
+imageArray[1] = new Image()
+imageArray[2] = new Image()
+imageArray[3] = new Image()
+imageArray[4] = new Image()
+imageArray[5] = new Image()
+
+
+	// Get current date
+    var now = new Date();
+    
+	// Get current day number
+    var mydate = now.getDate();
+
+	if(mydate <= 10) {
+		imageArray[0].src = "../images/navsml/logs_01.jpg"
+		imageArray[1].src = "../images/navsml/logs_03.jpg"
+		imageArray[2].src = "../images/navsml/logs_05.jpg"
+		imageArray[3].src = "../images/navsml/logs-b_01.jpg"
+		imageArray[4].src = "../images/navsml/logs-b_03.jpg"
+		imageArray[5].src = "../images/navsml/logs-b_05.jpg"
+	}
+	else if(mydate >= 11, mydate <= 20) {
+		imageArray[0].src = "../images/navsml/pool_01.jpg"
+		imageArray[1].src = "../images/navsml/pool_03.jpg"
+		imageArray[2].src = "../images/navsml/pool_05.jpg"
+		imageArray[3].src = "../images/navsml/pool-b_01.jpg"
+		imageArray[4].src = "../images/navsml/pool-b_03.jpg"
+		imageArray[5].src = "../images/navsml/pool-b_05.jpg"
+	}
+	else {
+		imageArray[0].src = "../images/navsml/pergola_01.jpg"
+		imageArray[1].src = "../images/navsml/pergola_03.jpg"
+		imageArray[2].src = "../images/navsml/pergola_05.jpg"
+		imageArray[3].src = "../images/navsml/pergola-b_01.jpg"
+		imageArray[4].src = "../images/navsml/pergola-b_03.jpg"
+		imageArray[5].src = "../images/navsml/pergola-b_05.jpg"
+	}
+	
+	
+	function imageChange(i) {
+	
+		document.images["img"+i].src = imageArray[i].src
+	
+	}
+	
+	function imageBack(i) {
+		x = i
+		setTimeout("allImagesBack(x)",4000)
+		
+	}
+	
+	function allImagesBack(x) {
+	
+	for (y = 0; y < 3; y++){ 
+	document.images["img"+y].src = imageArray[y+3].src
+	} 
+	
+	}
+	
+//-->
+		</script>
+		<script type="text/javascript" language="JavaScript" src="../scripts/popup.js"></script>
+	</head>
+
+	<body leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+	<!--  onFocus="checkWindow();" -->
+		<table width="780" border="0" cellspacing="2" cellpadding="0" align="center">
+			<tr>
+				<td colspan="2" width="568" height="15"><img src="../images/spacer.gif" width="100" height="10" alt="*" border="0"></td>
+				<td width="102" height="15"></td>
+				<td width="102" height="15"></td>
+			</tr>
+			<tr height="99">
+				<td class="logo" width="464" height="99"><img src="../images/logo01.gif" alt="eden landscapes logo" height="99" width="149" border="0" align="left">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><h1 class="title">eden landscapes<h1></td>
+					</tr>
+				</table></td>
+				<td valign="top" width="102" height="99"><a title="consultation" href="../consultation/" onMouseOver="imageChange(0);" onMouseOut="imageBack(0);"><img name="img0" src="../images/navsml/logs-b_01.jpg" alt="consultation" height="99" width="102" border="0"></a></td>
+				<td valign="top" width="102" height="99"><a title="design" href="../design/" onMouseOver="imageChange(1);" onMouseOut="imageBack(1);"><img name="img1" src="../images/navsml/logs-b_03.jpg" alt="design" height="99" width="102" border="0"></a></td>
+				<td valign="top" width="102" height="99"><a title="construction" href="../construction" onMouseOver="imageChange(2);" onMouseOut="imageBack(2);"><img name="img2" src="../images/navsml/logs-b_05.jpg" alt="construction" height="99" width="102" border="0"></a></td>
+			</tr>
+			<tr height="249">
+				<td class="body" colspan="2" valign="top" width="568" height="249">
+					<h2><img src="../images/digger.jpg" alt="" height="240" width="180" align="right" border="0" hspace="4">Construction</h2>
+					<p>The construction phase is completed by our own skilled and experienced team, leading on from the consultation and design stages. Only very specific parts of any garden project are conducted by sub-contractors, such as heavy excavation and electrical installation, and this is supervised and managed ourselves.</p>
+				</td>
+				<td class="projectsPane" colspan="2" valign="top" width="206" height="249"><b>View Eden projects:</b>
+					<p><a title="View the Selly Park city garden" href="#" onClick="popUp('../projects/sellypark',410);">Selly Park, Birmingham</a></p>
+					<p><a title="View the terrace construction at Botanical Gardens, Birmingham" href="#" onClick="popUp('../projects/botanics',410);">Botanical Gardens, Birmingham</a></p>
+					<p><a title="View photos of the Chelsea 2002 courtyard garden" href="#" onClick="popUp('../projects/chelsea',410);">Chelsea 2002</a></p>
+					<p><a title="View the Somerset rural garden" href="#" onClick="popUp('../projects/somerset',410);">Somerset</a></p>
+					<p><a title="View the Edgbaston city garden" href="#" onClick="popUp('../projects/edgbaston',410);">Edgbaston, Birmingham</a></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="footer" align="left" width="464" height="50"><a title="home page" href="../">27 Cartland Road &nbsp; Kings Heath &nbsp; Birmingham &nbsp; UK &nbsp; </a>B14 7NS<br>
+					t: +44 (0)121 444 5595 &nbsp; e: <a title="send an email" href="mailto:info@edenlandscapes.biz">info@edenlandscapes.biz</a></td>
+				<td class="footer" colspan="3" align="center" width="310" height="70"><a title="home page" href="../">Home</a> | <a title="consultation" href="../consultation/">Consultation</a> | <a title="design" href="../design/">Design</a> | <a title="construction" href="./">Construction</a> | <a title="contact us" href="../contact/">Contact</a></td>
+			</tr>
+		</table>
+		<script language="JavaScript"><!--
+		
+		for (x = 0; x < 3 ; x++){ 
+			document.images["img"+x].src = imageArray[x+3].src
+		}
+
+		//-->		
+		</script>
+	</body>
+
+</html>
